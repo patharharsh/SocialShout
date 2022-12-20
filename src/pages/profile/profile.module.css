@@ -1,0 +1,14 @@
+
+.userdp{position: relative;border: 2px solid #fff;}
+.userdp:after {content: "";display: block;padding-bottom: 100%;}
+.userdp img{position: absolute;width: 100%;height: 100%;object-fit: cover;}
+.userdp .dp_edit{width: 50px; height: 50px;font-size: 25px;line-height: 25px;border-radius: 50%;position: absolute;bottom: 10%;right: 10%;}
+
+.username{font-size: 36px;font-weight: 900;margin-bottom: 0px;line-height: 46px;}
+.subusername{font-size: 22px;font-weight: 400;margin-bottom: 20px;color: #858585;}
+.profileConter{padding: 20px 0;font-size: 20px;}
+.profileConter span{font-size: 36px;display: block;}
+
+
+
+.edit_btn{border: 1px solid #858585 !important;background-color: #fff !important;color: #858585 !important;}

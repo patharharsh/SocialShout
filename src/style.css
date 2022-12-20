@@ -1,0 +1,4 @@
+.invalid{text-align: left !important;color: red;}
+.invalid input{border-color: #fc6565 !important;}
+.invalid input:focus{box-shadow: 0 0 0 0.25rem rgba(253, 13, 13, 0.25) !important;}
+.dropdown-toggle.nav-link::after{content: none;}

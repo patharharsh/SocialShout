@@ -1,0 +1,55 @@
+.upload_area {
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.upload_area input {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+}
+.upload_field {
+  display: block;
+}
+
+.upload_field .file_thumbnail {
+  cursor: pointer;
+  border: 2px dashed #ced4da;
+  border-radius: .375rem;
+  text-align: center;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload_field .file_thumbnail img {
+  width: 100px;
+}
+
+.upload_field .file_thumbnail h4{
+    font-size: 66px;
+  color: #000000;
+  opacity: 0.55;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.upload_field .file_thumbnail h3 {
+  font-size: 26px;
+  color: #000000;
+  opacity: 0.55;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.upload_field .file_thumbnail p {
+  font-size: 12px;
+  color: #000;
+  opacity: .55  ;
+  margin-bottom: 0;
+}

@@ -1,0 +1,3 @@
+.post_thumb{position: relative;border: 2px solid #fff;}
+.post_thumb:after {content: "";display: block;padding-bottom: 100%;}
+.post_thumb img{position: absolute;width: 100%;height: 100%;object-fit: cover;}
